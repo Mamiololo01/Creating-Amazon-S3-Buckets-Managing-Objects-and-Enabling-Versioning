@@ -1,0 +1,13 @@
+Create a Public and Private Amazon S3 Bucket
+
+Download the two image files found at https://github.com/ACloudGuru-Resources/S3BucketsLabFiles to your local machine.
+Create two S3 buckets. One bucket should be a private bucket named acg-testlab-private-<random>. The other should be a public bucket 
+named acg-testlab-public-<random>. The public bucket should have public access unblocked.
+Upload the file image1.jpg found in the lab files to both S3 buckets, and test whether you can access them
+
+
+
+Enable Versioning on the Public Bucket and Validate Access to Different Versions of Files with the Same Name
+
+Enable versioning the public bucket. Rename the image originally named image2.jpg to image1.jpg, and upload it to the public S3 bucket, which will be 
+created as a new version of the original file. Using the URLs for the different versions of the image, confirm that you can access both images.
